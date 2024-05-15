@@ -34,7 +34,6 @@ header {
     display: flex;
     justify-content: center;
     gap: 40px;
-    margin-bottom: 24px;
     padding: 30px 0;
     background-color: #262626;
 }
@@ -54,6 +53,36 @@ select {
     padding: 8px;
     border-radius: 8px;
     border: 1px solid palevioletred;
+}
+
+/* Sorting */
+
+.sorting-container {
+    background-color: #262626;
+    padding: 30px 0;
+
+    p {
+        text-align: center;
+        color: white;
+        margin-bottom: 15px;
+    }
+}
+
+.sorting-btn-container {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.sorting-button {
+    border: 1px solid white;
+    padding: 12px 16px;
+    font-size: 16px;
+    color: white;
+    border-radius: 16px;
+    background-color: #262626;
 }
 
 .sorted-text {
